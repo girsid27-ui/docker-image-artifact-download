@@ -38,3 +38,4 @@ jobs:
       - name: Test docker image is present
         run: |
           docker image inspect test_image:${{ github.run_id }}
+ 
