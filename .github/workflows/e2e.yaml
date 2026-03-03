@@ -33,7 +33,7 @@ jobs:
       - name: Download image
         uses: ./
         with:
-          image: "test_image:${{ github.run_id }}"
+          image: "alpine/openclaw:latest"
 
       - name: Test docker image is present
         run: |
